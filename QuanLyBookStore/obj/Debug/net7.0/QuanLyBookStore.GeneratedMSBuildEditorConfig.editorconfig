@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\BTL-PTPMQL\QuanLyBookStore
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/BTL-PTPMQL/QuanLyBookStore/Views/DonMua/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BTL-PTPMQL/QuanLyBookStore/Views/DonMua/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BTL-PTPMQL/QuanLyBookStore/Views/DonMua/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BTL-PTPMQL/QuanLyBookStore/Views/DonMua/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BTL-PTPMQL/QuanLyBookStore/Views/DonMua/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/BTL-PTPMQL/QuanLyBookStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
