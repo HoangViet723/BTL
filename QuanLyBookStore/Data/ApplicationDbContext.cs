@@ -9,6 +9,7 @@ namespace QuanLyBookStore.Data
             : base(options)
         {
         }
+        public DbSet<QuanLyBookStore.Models.NhanVien> NhanVien { get; set; } = default!;
 
     }
 }
