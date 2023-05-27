@@ -10,6 +10,7 @@ namespace QuanLyBookStore.Data
         {
         }
         public DbSet<QuanLyBookStore.Models.NhanVien> NhanVien { get; set; } = default!;
+        public DbSet<QuanLyBookStore.Models.HopDong> HopDong { get; set; } = default!;
 
     }
 }
