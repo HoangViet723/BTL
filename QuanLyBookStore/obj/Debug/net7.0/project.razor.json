@@ -18660,8 +18660,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Sach\\Index.cshtml",
+      "TargetPath": "Views\\Sach\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Sach\\Edit.cshtml",
+      "TargetPath": "Views\\Sach\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18677,6 +18687,11 @@
     {
       "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\NhanVien\\Details.cshtml",
       "TargetPath": "Views\\NhanVien\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Sach\\Delete.cshtml",
+      "TargetPath": "Views\\Sach\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18705,6 +18720,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Sach\\Create.cshtml",
+      "TargetPath": "Views\\Sach\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\HopDong\\Details.cshtml",
       "TargetPath": "Views\\HopDong\\Details.cshtml",
       "FileKind": "mvc"
@@ -18712,6 +18732,11 @@
     {
       "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\NhanVien\\Edit.cshtml",
       "TargetPath": "Views\\NhanVien\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\BTL-PTPMQL\\QuanLyBookStore\\Views\\Sach\\Details.cshtml",
+      "TargetPath": "Views\\Sach\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
