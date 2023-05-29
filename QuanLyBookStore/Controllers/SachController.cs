@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QuanLyBookStore.Data;
 using QuanLyBookStore.Models;
+using QuanLyBookStore.Models.Process;
 
 namespace QuanLyBookStore.Controllers
 {
@@ -158,6 +159,56 @@ namespace QuanLyBookStore.Controllers
         private bool SachExists(string id)
         {
           return (_context.Sach?.Any(e => e.MaSach == id)).GetValueOrDefault();
+        }
+        private ExcelProcess _excelProcess = new ExcelProcess();
+
+        public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult>Upload(IFormFile file)
+        {
+            if (file!=null)
+            {
+                string fileExtension = Path.GetExtension(file.FileName);
+                if (fileExtension != ".xls" && fileExtension != ".xlsx")
+                {
+                    ModelState.AddModelError("", "Please choose excel file to upload!");
+                }
+                else
+                {
+                    //rename file when upload to sever
+                    var fileName = DateTime.Now.ToShortTimeString() + fileExtension;
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", fileName);
+                    var fileLocation = new FileInfo(filePath).ToString();
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //save file to server
+                        await file.CopyToAsync(stream);
+                        //read data from file and write to database
+                        var dt = _excelProcess.ExcelToDataTable(fileLocation);
+                        //dùng vòng lặp for để đọc dữ liệu dạng hd
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            //create a new Student object
+                            var hd = new Sach();
+                            //set values for attribiutes
+                            hd.MaSach = dt.Rows[i][0].ToString();
+                            hd.TenSach = dt.Rows[i][1].ToString();
+                            hd.TenNXB = dt.Rows[i][2].ToString();
+                            hd.Gia = dt.Rows[i][3].ToString();
+                            //add oject to context
+                            _context.Sach.Add(hd);
+                        }
+                        //save to database
+                        await _context.SaveChangesAsync();
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+            }
+            return View();
         }
     }
 }

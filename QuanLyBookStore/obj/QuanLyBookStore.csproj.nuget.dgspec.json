@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BTL-PTPMQL\\QuanLyBookStore\\QuanLyBookStore.csproj": {}
+    "D:\\ptpmql2002\\BTL\\BTL\\QuanLyBookStore\\QuanLyBookStore.csproj": {}
   },
   "projects": {
-    "E:\\BTL-PTPMQL\\QuanLyBookStore\\QuanLyBookStore.csproj": {
+    "D:\\ptpmql2002\\BTL\\BTL\\QuanLyBookStore\\QuanLyBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BTL-PTPMQL\\QuanLyBookStore\\QuanLyBookStore.csproj",
+        "projectUniqueName": "D:\\ptpmql2002\\BTL\\BTL\\QuanLyBookStore\\QuanLyBookStore.csproj",
         "projectName": "QuanLyBookStore",
-        "projectPath": "E:\\BTL-PTPMQL\\QuanLyBookStore\\QuanLyBookStore.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Hoang Viet\\.nuget\\packages\\",
-        "outputPath": "E:\\BTL-PTPMQL\\QuanLyBookStore\\obj\\",
+        "projectPath": "D:\\ptpmql2002\\BTL\\BTL\\QuanLyBookStore\\QuanLyBookStore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ptpmql2002\\BTL\\BTL\\QuanLyBookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nguyen Hoang Viet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
